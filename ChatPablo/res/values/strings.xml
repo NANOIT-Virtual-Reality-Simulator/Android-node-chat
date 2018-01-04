@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ChatPablo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="contactos">Contactos</string>
+    <string name="usuario">Nombre de usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="entrar">Entrar</string>
+    <string name="enviarMensaje">Enviar</string>
+    <string name="grupos">Grupos</string>
+    <string name="registro">Registro</string>
+    <string name="Rcontrasena">Repetir contraseña</string>
+    <string name="Volver">Volver</string>
+    <string name="verContactos">Ver contactos</string>
+    <string name="verGrupos">Ver grupos</string>
+    <string name="nuevoContacto">Nuevo Contacto</string>
+    <string name="nuevoGrupo">Nuevo Grupo</string>
+    <string name="nombreContacto">Nombre de contacto</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="nuevo_grupo">Nuevo grupo</string>
+	<string name="nuevo_miembro">Nuevo miembro del grupo</string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chatpablo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.chatpablo.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>  
+        <activity android:name=".Contactos"
+          android:label="Contactos">
+		   <intent-filter>
+		      <action android:name="listaContactos"/>
+		      <category android:name="android.intent.category.DEFAULT" />
+		   </intent-filter>
+		</activity> 
+	    <activity android:name=".Sala"
+          android:label="Sala">
+		   <intent-filter>
+		      <action android:name="cargarSala"/>
+		      <category android:name="android.intent.category.DEFAULT" />
+		   </intent-filter>
+		</activity> 
+	    <activity android:name=".Registro"
+          android:label="Registro">
+		   <intent-filter>
+		      <action android:name="cargarRegistro"/>
+		      <category android:name="android.intent.category.DEFAULT" />
+		   </intent-filter>
+		</activity>
+		<activity android:name=".Grupos"
+          android:label="Grupos">
+		   <intent-filter>
+		      <action android:name="listaGrupos"/>
+		      <category android:name="android.intent.category.DEFAULT" />
+		   </intent-filter>
+		</activity> 
+		<activity android:name=".SalaGrupos"
+          android:label="SalaGrupos">
+		   <intent-filter>
+		      <action android:name="SalaGrupos"/>
+		      <category android:name="android.intent.category.DEFAULT" />
+		   </intent-filter>
+		</activity> 
+		<activity android:name=".NuevoContacto"
+          android:label="nuevoContacto">
+		   <intent-filter>
+		      <action android:name="nuevoContacto"/>
+		      <category android:name="android.intent.category.DEFAULT" />
+		   </intent-filter>
+		</activity>
+		<activity android:name=".NuevoGrupo"
+          android:label="nuevoGrupo">
+		   <intent-filter>
+		      <action android:name="nuevoGrupo"/>
+		      <category android:name="android.intent.category.DEFAULT" />
+		   </intent-filter>
+		</activity> 
+		<activity android:name=".AgregarMiembro"
+          android:label="AgregarMiembro">
+		   <intent-filter>
+		      <action android:name="AgregarMiembro"/>
+		      <category android:name="android.intent.category.DEFAULT" />
+		   </intent-filter>
+		</activity> 
+    </application>	
+</manifest>
